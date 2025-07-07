@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.game-container {
+  background-color: white;
+  margin-top: 80px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #6a5acd;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5b4ac6;
+}
+
+#message {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#attempts {
+  font-size: 14px;
+  color: #777;
+}
+
+.reset-btn {
+  margin-top: 15px;
+  background-color: #e74c3c;
+}
+
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  font-size: 14px;
+  color: #fff;
+}

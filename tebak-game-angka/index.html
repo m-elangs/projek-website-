@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Tebak Angka</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Tebak Angka 🔢</h1>
+    <p class="subtitle">Saya menyimpan angka dari 1 sampai 100.<br>Coba tebak!</p>
+
+    <input type="number" id="guessInput" placeholder="Masukkan tebakanmu...">
+    <button onclick="checkGuess()">Tebak</button>
+
+    <p id="message"></p>
+    <p id="attempts">Percobaan: 0</p>
+    <button class="reset-btn" onclick="resetGame()">Main Lagi 🔄</button>
+  </div>
+
+  <footer>
+    <p>© 2025 - Portofolio Informatika</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
